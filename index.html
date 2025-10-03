@@ -3,34 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Documents</title>
+  <title>College Documents</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
+      background-color: #f4f6f8;
       margin: 0;
-      padding: 20px;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     }
     h1 {
       text-align: center;
       color: #333;
+      margin-bottom: 25px;
     }
-    .drive-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
+    ul {
+      list-style: none;
+      padding: 0;
     }
-    iframe {
-      border-radius: 12px;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    li {
+      margin-bottom: 15px;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    a:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
 <body>
-  <h1>My Drive Documents</h1>
-  <div class="drive-container">
-    <iframe src="https://drive.google.com/embeddedfolderview?id=1ArX0haM5EFU2PFSQ9IzC5lejTx2Cd4FP#grid" 
-            width="800" height="500" frameborder="0"></iframe>
+  <div class="container">
+    <h1>College Documents</h1>
+    <ul>
+      <li><a href="https://drive.google.com/drive/folders/1ArX0haM5EFU2PFSQ9IzC5lejTx2Cd4FP" target="_blank">Document</a></li>
+      <!-- <li><a href="YOUR_GOOGLE_DRIVE_LINK_2" target="_blank">Document 2</a></li>
+      <li><a href="YOUR_GOOGLE_DRIVE_LINK_3" target="_blank">Document 3</a></li>
+       Add more documents as needed -->
+    </ul>
   </div>
 </body>
 </html>
